@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('utils/generateMarkdown.js');
+const generateMarkdown = require("util/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -23,7 +23,7 @@ const questions = [
         message: 'What is your email address?',
     }, {
         type: 'input',
-        name: 'project title',
+        name: 'title',
         message: 'What is title of your project?',
     }, {
         type: 'input',
@@ -33,7 +33,7 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'Please choose a license to use?',
-        choices: ['MIT', 'Apache2', 'GNUGPLv3', 'GNUGPLv2', 'ISC']
+        choices: ['MIT', 'Apache2', 'GNUGPLv3', 'ISC', 'NONE']
     }, {
         type: 'input',
         name: 'install',
