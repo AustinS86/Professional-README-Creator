@@ -1,7 +1,9 @@
-// TODO: Include packages needed for this application
+//TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
-const generateMarkdown = require("util/generateMarkdown.js");
+const util = require('util');
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -11,15 +13,11 @@ const questions = [
         message: 'What is your name?',
     }, {
         type: 'input',
-        name: 'github username',
+        name: 'username',
         message: 'What is your GitHub username?',
     }, {
         type: 'input',
-        name: 'github link ',
-        message: 'What is your GitHub link?',
-    }, {
-        type: 'input',
-        name: 'email address',
+        name: 'email',
         message: 'What is your email address?',
     }, {
         type: 'input',
@@ -30,10 +28,10 @@ const questions = [
         name: 'description',
         message: 'Please enter a description?',
     }, {
-        type: 'input',
+        type: 'checkbox',
         name: 'license',
-        message: 'Please choose a license to use?',
-        choices: ['MIT', 'Apache2', 'GNUGPLv3', 'ISC', 'NONE']
+        message: 'Please choose a license to use? (Please choose one)',
+        choices: ['ISC', 'MIT', 'GNUGPLv3', 'APACHE2']
     }, {
         type: 'input',
         name: 'install',
@@ -65,7 +63,7 @@ function init() {
                 if (err) {
                     console.log('file not created', err)
                 } else {
-                    console.log('New README.md created!')
+                    console.log('README created!')
                 }
             })
         })

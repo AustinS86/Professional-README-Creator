@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/AustinS86/Professional-README-Creator#readme",
   "dependencies": {
-    "inquirer": "^8.2.5"
+    "inquirer": "^8.2.4"
   }
 }
