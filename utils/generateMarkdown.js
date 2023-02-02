@@ -75,7 +75,7 @@ function generateMarkdown(data) {
   
   * Email: ${data.email}
 
-  * GitHub: https://github.com/${data.username}
+  * GitHub: [AustinS86](https://github.com/${data.username})
 
   `;
 }
