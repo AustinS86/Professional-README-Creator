@@ -7,19 +7,7 @@ const util = require('util');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: 'input',
-        name: 'name',
-        message: 'What is your name?',
-    }, {
-        type: 'input',
-        name: 'username',
-        message: 'What is your GitHub username?',
-    }, {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?',
-    }, {
+   {
         type: 'input',
         name: 'title',
         message: 'What is title of your project?',
@@ -48,6 +36,14 @@ const questions = [
         type: 'input',
         name: 'contributor',
         message: 'Please enter any guidelines for any future users to contribute to this repository?',
+    },{
+        type: 'input',
+        name: 'username',
+        message: 'What is your GitHub username?',
+    }, {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
     },
 ];
 
