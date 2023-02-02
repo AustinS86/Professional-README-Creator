@@ -15,7 +15,16 @@
 This purpose of this program is to be able to create a professional README right in your own terminal! Making a README can be daunting for anyone just starting out coding. This program makes creating a README easy and approachable. It uses Javascript and Nodejs to create the README.
 
 ## Installation
-Start by cloning this repository and paste in VS Code or a system of your choosing. Next you will want to install the [Inquirer](https://www.npmjs.com/package/inquirer) files. This make sure that the program runs all the questions need to create a README. 
+
+### Make sure you have these following programs installed first:
+- VS Code (or something similar)
+- GitBash
+- Nodejs
+- Inquirer
+
+1. Start by cloning this repository and paste in VS Code or a system of your choosing by running "git clone". 
+1. Next in the command line run "npm init -y" to install the node modules. 
+1. Next you will want to install the [Inquirer](https://www.npmjs.com/package/inquirer) in your command line in GitBash " npm install inquirer.
 
 ## Usage
 When youre done installing the code and files. Open your terminal and run 'node index.js' and answer the questions that generate. You should see your answers in the terminal as you answer them. When you are done you will see a message saying "README Created!". You'll then see in your directory folder and file called 'generated README'. 
@@ -27,9 +36,7 @@ When youre done installing the code and files. Open your terminal and run 'node 
 
 ![README-Terminal](https://user-images.githubusercontent.com/117120566/216398248-fe550ed2-e52b-4238-acd6-981013d44b4f.jpg)
 
-## Tools
-- Javascript
-- Nodejs
+
 
 
 ## Links
