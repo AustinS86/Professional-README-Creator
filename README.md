@@ -40,7 +40,7 @@ When youre done installing the code and files. Open your terminal and run 'node 
 
 
 ## Links
-Walkthrough Video: 
+Walkthrough Video: [README-Creator-Video](https://drive.google.com/file/d/1oSwsxUr0Xamu3YOarRQlu8Ih-E1eIX4w/view)
 
 ## Contact
 - Email: Austin.stancil@yahoo.com
